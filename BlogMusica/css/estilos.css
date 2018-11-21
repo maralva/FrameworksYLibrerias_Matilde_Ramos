@@ -1,0 +1,74 @@
+/*Clase para darle estilos al body*/
+.blog-body{
+  background-color:RGB(144, 12, 63)
+}
+
+.container{
+  background-color: RGB(214, 219, 223);
+padding: 50px;
+
+}
+/*Clase para darle estilos a la barra de navegacion*/
+.header{
+  background:RGB(229, 115, 115);
+  min-height: 10%;
+  border: none;
+}
+.logo-img{
+  text-align: left;
+  width: 150px;
+}
+
+/*Clase para darle estilos al contenedor principal*/
+.navbar{
+background:RGB(253, 208, 198);
+padding:20px;
+text-align: justify;
+text-decoration-color:black;
+}
+.redes-sociales {
+	text-align: right;
+	}
+.img-social{
+  margin-right: 0px;
+  margin-top: 100px;
+}
+.img-cotenido{
+  align-content: center;
+
+}
+.img-formulario{
+  width:50px;
+}
+.img-busqueda{
+  width: 20px;
+}
+.busqueda{
+  width: 250px;
+}
+@media (max-width: 991px) {
+
+  .busqueda {
+		display: none;
+	}
+
+	.contenido {
+		margin: 5px 10px;
+	}
+
+	.logo-img {
+    display:block;
+    margin:auto;
+	}
+.redes-sociales{
+  float: none;
+  margin: 2px auto;
+  align-self: center;
+  text-align: center;
+}
+  .navbar{
+    text-align: center;
+  }
+}
+
+/*Clase para darle estilos al jumbotron*/
